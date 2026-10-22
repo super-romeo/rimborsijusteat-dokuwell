@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rimborsijusteat.dokufolio.com/sitemap.xml

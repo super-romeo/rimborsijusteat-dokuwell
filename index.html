@@ -15,6 +15,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="Per ristoranti su Just Eat: pagamenti confrontati con gli ordini, rimborsi trattenuti segnalati e pratica di contestazione pronta da inviare.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -73,38 +77,68 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">Rimborsi Recuperati</a></div>
-  <nav class="top"><a href="#cosa" data-ev="click_nav_cosa">Cosa ottieni</a><a href="price.html" data-ev="click_nav_prezzo">Prezzo</a><a href="#esempio" data-ev="click_nav_esempio">Esempio</a><a href="#start" data-ev="click_nav_start">Inizia</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">Rimborsi Recuperati</a>
+  <nav><a href="#cosa" data-ev="click_nav_cosa">Cosa ottieni</a><a href="price.html" data-ev="click_nav_prezzo">Prezzo</a><a href="#esempio" data-ev="click_nav_esempio">Esempio</a><a href="#start" data-ev="click_nav_start">Inizia</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>I rimborsi che Just Eat trattiene dai tuoi pagamenti — trovati ogni settimana e contestati con la pratica pronta</h1>
-    <p class="sub">Per ristoranti con un flusso di ordini su Just Eat: il servizio confronta ogni estratto dei pagamenti con gli ordini, segnala i rimborsi al cliente addebitati al ristorante e, per quelli che non sono colpa tua, prepara la contestazione con l'ora di consegna, le foto e lo scontrino.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">Mi serve</a>
-    <p class="cta-note">Servizio in preparazione · Su questa pagina non si accettano pagamenti</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> Per ristoranti con un flusso di ordini</p>
+      <h1 class="rise" style="--i:1" data-len="xlong">I rimborsi che Just Eat trattiene dai tuoi pagamenti&nbsp;<span class="soft">— trovati ogni settimana e contestati con la pratica pronta</span></h1>
+      <p class="rise" style="--i:2">Per ristoranti con un flusso di ordini su Just Eat: il servizio confronta ogni estratto dei pagamenti con gli ordini, segnala i rimborsi al cliente addebitati al ristorante e, per quelli che non sono colpa tua, prepara la contestazione con l'ora di consegna, le foto e lo scontrino.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">Mi serve</a>
+      <p class="meta rise" style="--i:4">Servizio in preparazione · Su questa pagina non si accettano pagamenti</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="130" y="160" font-size="40" font-weight="600" fill="#0a1524">Rimborsi</text><line x1="130" y1="210" x2="1070" y2="210" stroke="#dde2ea" stroke-width="3" fill="none" /><rect x="130" y="260" width="520" height="64" rx="12" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="130" y="350" width="520" height="64" rx="12" fill="#12397a" /><circle cx="590" cy="382" r="14" fill="#ffffff" /><rect x="130" y="440" width="520" height="64" rx="12" fill="#dfe8f7" /><rect x="130" y="530" width="360" height="64" rx="12" fill="#dde2ea" /><text x="720" y="280" font-size="32" font-weight="600" fill="#0a1524">Contestazione</text><rect x="720" y="320" width="320" height="210" rx="16" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="750" y="370" width="220" height="22" rx="8" fill="#dde2ea" /><rect x="750" y="420" width="170" height="22" rx="8" fill="#b9c3d2" /><rect x="750" y="470" width="190" height="28" rx="8" fill="#12397a" /><text x="720" y="600" font-size="32" font-weight="600" fill="#0a1524">Pagamento</text></svg></figure>
+    <dl class="facts">
+      <div><dt>Per</dt><dd>Ristoranti con un flusso</dd></div>
+      <div><dt>Trova</dt><dd>Rimborsi al cliente</dd></div>
+      <div><dt>Come</dt><dd>Confronta ogni estratto</dd></div>
+      <div><dt>Servizio</dt><dd>In preparazione</dd></div>
+    </dl>
+  </section>
 
   <section id="cosa" data-view="features_view">
-    <h2>Cosa ottieni</h2>
-    <div class="grid">
-      <div class="card"><b>Rimborsi trovati</b><span>Ogni trattenuta per rimborso al cliente collegata al suo ordine.</span><br><a class="btn" href="price.html" data-ev="feature_trova">Mi serve</a></div>
-      <div class="card"><b>Contestabili o no</b><span>Indicato quali rimborsi hanno prove a tuo favore.</span><br><a class="btn" href="price.html" data-ev="feature_valuta">Mi serve</a></div>
-      <div class="card"><b>Pratica pronta</b><span>Ora di consegna, foto, scontrino e testo della contestazione.</span><br><a class="btn" href="price.html" data-ev="feature_pratica">Mi serve</a></div>
-      <div class="card"><b>Esito seguito</b><span>Quali contestazioni sono accolte e quanto torna nel pagamento.</span><br><a class="btn" href="price.html" data-ev="feature_esito">Mi serve</a></div>
+    <div class="stack"><h2>Cosa ottieni</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="140" font-size="34" font-weight="600" fill="#0a1524">Rimborsi trovati</text><rect x="140" y="210" width="40" height="40" rx="8" fill="#12397a" /><rect x="210" y="220" width="400" height="22" rx="8" fill="#dde2ea" /><rect x="140" y="290" width="40" height="40" rx="8" fill="#dfe8f7" /><rect x="210" y="300" width="300" height="22" rx="8" fill="#b9c3d2" /><rect x="140" y="370" width="40" height="40" rx="8" fill="#12397a" /><rect x="210" y="380" width="440" height="22" rx="8" fill="#dde2ea" /><rect x="140" y="450" width="40" height="40" rx="8" fill="#dde2ea" /><rect x="210" y="460" width="250" height="22" rx="8" fill="#b9c3d2" /></svg></div>
+        <h3>Rimborsi trovati</h3><p>Ogni trattenuta per rimborso al cliente collegata al suo ordine.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_trova">Mi serve</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><text x="70" y="120" font-size="32" font-weight="600" fill="#0a1524">Contestabili o no</text><rect x="60" y="180" width="320" height="350" rx="18" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="420" y="180" width="320" height="350" rx="18" fill="#dfe8f7" /><circle cx="220" cy="320" r="46" fill="#12397a" /><circle cx="580" cy="320" r="46" fill="#ffffff" stroke="#dde2ea" stroke-width="4" /><rect x="110" y="410" width="220" height="24" rx="8" fill="#dde2ea" /><rect x="470" y="410" width="220" height="24" rx="8" fill="#b9c3d2" /></svg></div>
+        <h3>Contestabili o no</h3><p>Indicato quali rimborsi hanno prove a tuo favore.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_valuta">Mi serve</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="170" y="90" width="460" height="440" rx="16" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="210" y="180" font-size="34" font-weight="600" fill="#0a1524">Pratica pronta</text><circle cx="560" cy="160" r="26" fill="#12397a" /><rect x="210" y="230" width="360" height="24" rx="8" fill="#dde2ea" /><rect x="210" y="280" width="280" height="24" rx="8" fill="#b9c3d2" /><rect x="210" y="350" width="150" height="110" rx="12" fill="#dfe8f7" /><rect x="390" y="350" width="150" height="110" rx="12" fill="#dde2ea" /></svg></div>
+        <h3>Pratica pronta</h3><p>Ora di consegna, foto, scontrino e testo della contestazione.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_pratica">Mi serve</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="150" font-size="36" font-weight="600" fill="#0a1524">Esito seguito</text><line x1="150" y1="470" x2="660" y2="470" stroke="#566174" stroke-width="4" fill="none" /><rect x="180" y="250" width="80" height="220" rx="10" fill="#12397a" /><rect x="300" y="330" width="80" height="140" rx="10" fill="#dfe8f7" /><rect x="420" y="290" width="80" height="180" rx="10" fill="#dde2ea" /><rect x="540" y="360" width="80" height="110" rx="10" fill="#b9c3d2" /></svg></div>
+        <h3>Esito seguito</h3><p>Quali contestazioni sono accolte e quanto torna nel pagamento.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_esito">Mi serve</a>
+      </article>
     </div>
   </section>
 
-  <section id="esempio" data-view="example_view">
-    <h2>Esempio (dati di fantasia)</h2>
-    <p class="fine">Pizzeria con 600 ordini al mese su Just Eat. Nel pagamento della settimana il servizio trova 9 rimborsi al cliente trattenuti: 3 per prodotti mancanti con foto del sacchetto chiuso, 2 per ritardo con consegna nei tempi. Per questi 5 prepara la pratica, il titolare la invia in pochi minuti, e nel pagamento successivo ne rientrano 4.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Scegli il piano</a>
+  <section id="esempio" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Esempio</h2>
+      <p>Pizzeria con 600 ordini al mese su Just Eat. Nel pagamento della settimana il servizio trova 9 rimborsi al cliente trattenuti: 3 per prodotti mancanti con foto del sacchetto chiuso, 2 per ritardo con consegna nei tempi. Per questi 5 prepara la pratica, il titolare la invia in pochi minuti, e nel pagamento successivo ne rientrano 4.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Scegli il piano</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="240" y1="160" x2="960" y2="160" stroke="#dde2ea" stroke-width="6" fill="none" /><circle cx="240" cy="160" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><circle cx="600" cy="160" r="22" fill="#ffffff" stroke="#b9c3d2" stroke-width="6" /><circle cx="960" cy="160" r="22" fill="#12397a" /><text x="240" y="240" font-size="34" font-weight="600" fill="#0a1524" text-anchor="middle">Pizzeria</text><text x="600" y="240" font-size="34" font-weight="600" fill="#0a1524" text-anchor="middle">la pratica</text><text x="960" y="240" font-size="34" font-weight="600" fill="#0a1524" text-anchor="middle">pagamento</text><rect x="120" y="300" width="960" height="420" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="170" y="390" font-size="36" font-weight="600" fill="#0a1524">rimborsi al cliente</text><text x="170" y="480" font-size="32" fill="#566174">nel pagamento</text><rect x="170" y="550" width="70" height="70" rx="10" fill="#12397a" /><rect x="260" y="550" width="70" height="70" rx="10" fill="#dfe8f7" /><rect x="350" y="550" width="70" height="70" rx="10" fill="#dde2ea" /><rect x="440" y="550" width="70" height="70" rx="10" fill="#b9c3d2" /><rect x="530" y="550" width="70" height="70" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>Come funziona</h2>
-    <p>Un ristorante che lavora con Just Eat riceve ogni settimana un estratto dei pagamenti con gli ordini, le commissioni e le trattenute. Tra le trattenute ci sono i rimborsi concessi ai clienti per piatti mancanti, ordini sbagliati o ritardi, che la piattaforma addebita al ristorante.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>Come funziona</h2></div>
+    <div class="stack">
+      <p>Un ristorante che lavora con Just Eat riceve ogni settimana un estratto dei pagamenti con gli ordini, le commissioni e le trattenute. Tra le trattenute ci sono i rimborsi concessi ai clienti per piatti mancanti, ordini sbagliati o ritardi, che la piattaforma addebita al ristorante.</p>
     <p>Una parte di questi rimborsi è giusta, ma una parte no: il prodotto era nel sacchetto, il ritardo dipendeva dal rider, il cliente ha già chiesto un rimborso per lo stesso ordine. Senza un controllo, queste trattenute passano inosservate e ogni mese il ristorante perde soldi che potrebbe recuperare.</p>
     <p>Controllarle a mano è lento. Bisogna aprire l'estratto, trovare ogni rimborso, risalire all'ordine, cercare la foto del sacchetto e l'ora di uscita, e scrivere la contestazione entro i termini. Nelle settimane piene nessuno ha il tempo di farlo, e le trattenute restano.</p>
     <p>Il servizio fa questo lavoro al posto tuo. Legge l'estratto dei pagamenti e lo confronta con gli ordini, trova ogni rimborso al cliente trattenuto dalla tua quota e lo collega all'ordine, al motivo indicato e all'importo.</p>
@@ -117,31 +151,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>L'avvio richiede poco tempo: carichi gli estratti dei pagamenti delle ultime settimane e il servizio mostra subito i rimborsi trattenuti, con quelli contestabili in cima. Funziona dal browser, senza installare nulla.</p>
     <p>Il servizio è pensato per ristoranti, pizzerie e locali con consegna in Italia che lavorano su Just Eat. È in preparazione: prima verifichiamo se i ristoratori ne hanno bisogno.</p>
     <p>Il servizio non fa parte di Just Eat né è collegato alla piattaforma; le contestazioni le invia il ristorante, e la decisione resta alla piattaforma.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Domande frequenti</h2>
-    <h3>Quali rimborsi trova?</h3>
-    <p>I rimborsi al cliente che Just Eat trattiene dai pagamenti del ristorante, collegati al loro ordine.</p>
-    <h3>Come capisce se un rimborso è contestabile?</h3>
-    <p>Cerca le prove a tuo favore: ora di consegna al rider, foto del sacchetto, scontrino, segnalazioni di ritardo.</p>
-    <h3>Chi invia la contestazione?</h3>
-    <p>Tu, attraverso il canale previsto per i ristoranti; il servizio prepara la pratica completa.</p>
-    <h3>Il servizio fa parte di Just Eat?</h3>
-    <p>No. È un servizio separato per ristoranti; la decisione sulla contestazione resta alla piattaforma.</p>
-    <h3>Posso già usarlo?</h3>
-    <p>Non ancora. Il servizio è in preparazione e stiamo verificando se i ristoratori ne hanno bisogno.</p>
+    <div class="stack"><h2>Domande frequenti</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Quali rimborsi trova?</h3><p>I rimborsi al cliente che Just Eat trattiene dai pagamenti del ristorante, collegati al loro ordine.</p></div>
+      <div class="split flip"><h3>Come capisce se un rimborso è contestabile?</h3><p>Cerca le prove a tuo favore: ora di consegna al rider, foto del sacchetto, scontrino, segnalazioni di ritardo.</p></div>
+      <div class="split flip"><h3>Chi invia la contestazione?</h3><p>Tu, attraverso il canale previsto per i ristoranti; il servizio prepara la pratica completa.</p></div>
+      <div class="split flip"><h3>Il servizio fa parte di Just Eat?</h3><p>No. È un servizio separato per ristoranti; la decisione sulla contestazione resta alla piattaforma.</p></div>
+      <div class="split flip"><h3>Posso già usarlo?</h3><p>Non ancora. Il servizio è in preparazione e stiamo verificando se i ristoratori ne hanno bisogno.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Carica i tuoi estratti dei pagamenti</h2>
-    <p><label>Ordini al mese su Just Eat<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— scegli —</option><option>Fino a 200</option><option>200–600</option><option>600–1500</option><option>Più di 1500</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Inizia</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Carica i tuoi estratti dei pagamenti</h2>
+    </div>
+    <div class="tile stack">
+      <label>Ordini al mese su Just Eat<select data-ev-focus="form_start"><option value="">— scegli —</option><option>Fino a 200</option><option>200–600</option><option>600–1500</option><option>Più di 1500</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Inizia</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>Rimborsi Recuperati</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Privacy</a></p>
-  <p class="muted">Servizio per il controllo dei pagamenti del ristorante. Non fa parte di Just Eat; le contestazioni le invia il ristorante.</p>
+  <p>Servizio per il controllo dei pagamenti del ristorante. Non fa parte di Just Eat; le contestazioni le invia il ristorante.</p>
 </div></footer>
 
 </body>
